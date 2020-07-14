@@ -7,3 +7,6 @@ cd "C:\Program Files\ClamAV"
 Write-Host "Scanning started. Grab some Coffee"
 ./clamscan -r $Dir_to_scan --move=$User_quar --log=$Logdir
 Write-Host "Scan Complete!" -ForegroundColor white -BackgroundColor red
+type $Logdir
+Write-Host "Automatically closes after 2 Minutes" -ForegroundColor white -BackgroundColor red
+Start-Sleep -Seconds 120
