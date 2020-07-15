@@ -1,6 +1,6 @@
 $Dir_to_scan = Read-Host "Enter the directory/file you wish to scan. Example c:\folder\filename.txt"
 $User_quar_Dir = Read-Host "Choose a Directory for storing Quarantined files"
-Write-Warning -Message "Must write-out the filename as well. Example c:\folder\filename.txt"
+Write-Warning -Message "Must write-out the filename as well. Example c:\folder\log.txt"
 $Log_dir = Read-Host "Choose a Directory for storing ClamAV Logs"
 
 <#Simply input the file path for ClamAV inside the parenthesis "insert-filepath" #>
