@@ -11,5 +11,5 @@ Write-Host "Scan Complete!" -ForegroundColor white -BackgroundColor red
 type $Log_dir
 Write-Host "Automatically closes after 2 Minutes" -ForegroundColor white -BackgroundColor red
 
-<#Simply Adjust the value 120 hear as it represents seconds which is clearly stated.#>
+<#Simply Adjust the value 120 here as it represents seconds which is clearly stated.#>
 Start-Sleep -Seconds 120
